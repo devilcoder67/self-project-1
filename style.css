@@ -1,0 +1,150 @@
+/* Reset box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-body-bg: #23252C;
+}
+
+body {
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+    --bs-body-bg: #23252C;
+}
+
+/* Container styles */
+.info-card {
+    background-color: #1A1B21;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 0; /* Reduce margin to stack closely */
+    margin-top: 600px;
+    padding-bottom: 20px;
+}
+
+/* Image styles */
+.info-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px;
+}
+
+/* Text container styles */
+.info-card .info {
+    padding: 20px;
+}
+
+/* Title and subtitle styles */
+.info-card h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info-card p {
+    color: #F3BF99;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Website link styles */
+.info-card small a {
+    color: #F5F5F5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.info-card small a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.info-card .btn-light:hover {
+    opacity: 0.8;
+}
+
+/* About section styles */
+.about-card {
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+/* Title styles */
+.about-card h5 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+.about-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+
+.interest {
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: -50px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+/* Title styles */
+.interest h5 {
+    font-size: 18px;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+.interest p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.footer{
+    background-color: #1a1a1a;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer i{
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
